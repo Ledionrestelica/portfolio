@@ -75,7 +75,7 @@ const Projects = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
             viewport={{ once: true }}
-            className="p-2 flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
+            className="py-2 px-6 flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
           >
             <div className="relative w-full h-full">
               <Image
