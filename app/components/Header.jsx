@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import {
-  FaAlipay,
   FaArrowRight,
   FaGithub,
   FaInstagram,
@@ -76,10 +75,10 @@ const Header = () => {
             id="socials"
           >
             <DropdownMenu>
-              <DropdownMenuTrigger className="font-normal text-secondary shadow-sm bg-button  px-4 py-2 rounded-md outline-none">
+              <DropdownMenuTrigger className="font-normal text-secondary hover:bg-background hover:border-button border-2 border-transparent transition-all box-content duration-500 shadow-sm bg-button  px-4 py-2 rounded-md outline-none">
                 Socials
               </DropdownMenuTrigger>
-              <DropdownMenuContent>
+              <DropdownMenuContent align="end">
                 <motion.div
                   variants={container}
                   initial="hidden"

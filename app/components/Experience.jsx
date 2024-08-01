@@ -42,7 +42,13 @@ const Experience = () => {
           />
         </svg>
       </div>
-      <div className="flex flex-col gap-[20px] mt-[60px] rounded-2xl ">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.4, duration: 0.6 }}
+        viewport={{ once: true }}
+        className="flex flex-col gap-[20px] mt-[60px] rounded-2xl "
+      >
         <div className="flex items-center gap-4">
           <h2 className="text-[18px] font-medium text-primary">
             Frontend Developer @
@@ -61,8 +67,14 @@ const Experience = () => {
           aliquam illum non delectus quas saepe, consequatur dolorem sit!
           Obcaecati porro sit voluptatum cupiditate!
         </p>
-      </div>
-      <div className="flex flex-col gap-[20px] mt-[60px] rounded-2xl">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.4, duration: 0.6 }}
+        viewport={{ once: true }}
+        className="flex flex-col gap-[20px] mt-[60px] rounded-2xl"
+      >
         <div className="flex items-center gap-4">
           <h2 className="text-[18px] font-medium text-primary">
             Digital Marketing course @
@@ -81,7 +93,7 @@ const Experience = () => {
           aliquam illum non delectus quas saepe, consequatur dolorem sit!
           Obcaecati porro sit voluptatum cupiditate!
         </p>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
