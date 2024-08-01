@@ -9,8 +9,8 @@ const ExpandableDiv = ({ href, text }) => {
     <motion.div
       layout
       onClick={() => setIsOpen((prev) => !prev)}
-      className={`bg-button px-6 py-2 rounded-lg flex justify-between w-max cursor-pointer ${
-        isOpen ? "w-[220px]" : "w-max"
+      className={`bg-button px-6 py-2 rounded-lg flex gap-8 w-max max-w-fit cursor-pointer ${
+        isOpen ? "w-auto" : null
       }`}
     >
       <motion.p layout className="text-secondary font-normal">

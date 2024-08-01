@@ -56,16 +56,14 @@ const Projects = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
             viewport={{ once: true }}
-            className="flex justify-center w-full p-2 items-center aspect-video  bg-button rounded-lg"
+            className="relative flex justify-center w-full p-2 items-center aspect-video  bg-button rounded-lg"
           >
-            <div className="relative w-full h-full">
-              <Image
-                src="/alius-nobg.png"
-                fill
-                quality={100}
-                style={{ maxWidth: "100%", objectFit: "contain" }}
-              />
-            </div>
+            <Image
+              src="/alius-nobg.png"
+              fill
+              quality={100}
+              style={{ objectFit: "contain" }}
+            />
           </motion.div>
           <ExpandableDiv href="/alius" text="Alius" />
         </div>
@@ -75,16 +73,14 @@ const Projects = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
             viewport={{ once: true }}
-            className="py-2 px-6 flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
+            className=" relative flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
           >
-            <div className="relative w-full h-full">
-              <Image
-                src="/estatex-iphone-nobg.png"
-                fill
-                quality={100}
-                style={{ maxWidth: "100%", objectFit: "contain" }}
-              />
-            </div>
+            <Image
+              src="/estatex-iphone-nobg.png"
+              fill
+              quality={100}
+              style={{ objectFit: "contain" }}
+            />
           </motion.div>
           <ExpandableDiv href="/estatex" text="Estatex" />
         </div>
@@ -94,16 +90,14 @@ const Projects = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
             viewport={{ once: true }}
-            className="p-2 flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
+            className="relative flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
           >
-            <div className="relative w-full h-full">
-              <Image
-                src="/kreate-nobg.png"
-                fill
-                quality={100}
-                style={{ maxWidth: "100%", objectFit: "contain" }}
-              />
-            </div>
+            <Image
+              src="/kreate-nobg.png"
+              fill
+              quality={100}
+              style={{ objectFit: "contain" }}
+            />
           </motion.div>
           <ExpandableDiv href="/kreate" text="Kreate" />
         </div>
@@ -113,16 +107,14 @@ const Projects = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
             viewport={{ once: true }}
-            className="p-2 flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
+            className="relative flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
           >
-            <div className="relative w-full h-full">
-              <Image
-                src="/munthes-nobg.png"
-                fill
-                quality={100}
-                style={{ maxWidth: "100%", objectFit: "contain" }}
-              />
-            </div>
+            <Image
+              src="/munthes-nobg.png"
+              fill
+              quality={100}
+              style={{ objectFit: "contain" }}
+            />
           </motion.div>
           <ExpandableDiv href="/munthes" text="Munthes" />
         </div>
@@ -132,16 +124,14 @@ const Projects = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
             viewport={{ once: true }}
-            className="p-2 flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
+            className="relative flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
           >
-            <div className="relative w-full h-full">
-              <Image
-                src="/balkan-nobg.png"
-                fill
-                quality={100}
-                style={{ maxWidth: "100%", objectFit: "contain" }}
-              />
-            </div>
+            <Image
+              src="/balkan-nobg.png"
+              fill
+              quality={100}
+              style={{ objectFit: "contain" }}
+            />
           </motion.div>
           <ExpandableDiv href="/balkan" text="Balkan" />
         </div>
@@ -151,16 +141,14 @@ const Projects = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
             viewport={{ once: true }}
-            className="p-2 flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
+            className="relative flex justify-center items-center aspect-video w-200px bg-button rounded-lg"
           >
-            <div className="relative w-full h-full">
-              <Image
-                src="/massoud-nobg.png"
-                fill
-                quality={100}
-                style={{ maxWidth: "100%", objectFit: "contain" }}
-              />
-            </div>
+            <Image
+              src="/massoud-nobg.png"
+              fill
+              quality={100}
+              style={{ objectFit: "contain" }}
+            />
           </motion.div>
           <ExpandableDiv href="/massoud" text="Massoud" />
         </div>
