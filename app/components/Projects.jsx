@@ -63,7 +63,7 @@ const Projects = () => {
                 src="/alius-nobg.png"
                 fill
                 quality={100}
-                objectFit="contain"
+                style={{ maxWidth: "100%", objectFit: "contain" }}
               />
             </div>
           </motion.div>
@@ -82,8 +82,7 @@ const Projects = () => {
                 src="/estatex-nobg.png"
                 fill
                 quality={100}
-                objectFit="contain"
-                style={{ maxWidth: "100%" }}
+                style={{ maxWidth: "100%", objectFit: "contain" }}
               />
             </div>
           </motion.div>
@@ -102,7 +101,7 @@ const Projects = () => {
                 src="/kreate-nobg.png"
                 fill
                 quality={100}
-                objectFit="contain"
+                style={{ maxWidth: "100%", objectFit: "contain" }}
               />
             </div>
           </motion.div>
@@ -121,7 +120,7 @@ const Projects = () => {
                 src="/munthes-nobg.png"
                 fill
                 quality={100}
-                objectFit="contain"
+                style={{ maxWidth: "100%", objectFit: "contain" }}
               />
             </div>
           </motion.div>
@@ -140,7 +139,7 @@ const Projects = () => {
                 src="/balkan-nobg.png"
                 fill
                 quality={100}
-                objectFit="contain"
+                style={{ maxWidth: "100%", objectFit: "contain" }}
               />
             </div>
           </motion.div>
@@ -159,7 +158,7 @@ const Projects = () => {
                 src="/massoud-nobg.png"
                 fill
                 quality={100}
-                objectFit="contain"
+                style={{ maxWidth: "100%", objectFit: "contain" }}
               />
             </div>
           </motion.div>
