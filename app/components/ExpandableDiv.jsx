@@ -8,10 +8,7 @@ const ExpandableDiv = ({ href, text }) => {
   return (
     <motion.div
       layout
-      onHoverStart={() => setIsOpen(true)}
-      onHoverEnd={() => setIsOpen(false)}
-      onTouchStart={() => setIsOpen(true)}
-      onTouchEnd={() => setIsOpen(false)}
+      onClick={() => setIsOpen((prev) => !prev)}
       className={`bg-button px-6 py-2 rounded-lg flex justify-between w-max cursor-pointer ${
         isOpen ? "w-[220px]" : "w-max"
       }`}

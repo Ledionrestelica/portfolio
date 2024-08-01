@@ -79,7 +79,7 @@ const Projects = () => {
           >
             <div className="relative w-full h-full">
               <Image
-                src="/estatex-nobg.png"
+                src="/estatex-iphone-nobg.png"
                 fill
                 quality={100}
                 style={{ maxWidth: "100%", objectFit: "contain" }}
