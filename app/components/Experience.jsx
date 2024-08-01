@@ -50,9 +50,9 @@ const Experience = () => {
           <div className="px-4 py-2 bg-button text-secondary rounded-full">
             Alius
           </div>
-          <div className="px-4 py-2 bg-button text-secondary rounded-full">
-            Aug 2023 - Current
-          </div>
+        </div>
+        <div className="px-4 w-max py-2 bg-button text-secondary rounded-full">
+          Aug 2023 - Current
         </div>
 
         <p className="md:w-[500px] text-[16px] font-normal text-secondary">
@@ -70,9 +70,9 @@ const Experience = () => {
           <div className="px-4 py-2 bg-button text-secondary rounded-full">
             Tactica
           </div>
-          <div className="px-4 py-2 bg-button text-secondary rounded-full">
-            May 2022 - Oct 2022
-          </div>
+        </div>
+        <div className="px-4 py-2 w-max  bg-button text-secondary rounded-full">
+          May 2022 - Oct 2022
         </div>
 
         <p className="md:w-[500px] text-[16px] font-normal text-secondary">

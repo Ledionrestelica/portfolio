@@ -48,7 +48,7 @@ const Projects = () => {
       <motion.div
         initial="hidden"
         animate="show"
-        className="grid grid-cols-1 lg:grid-cols-2 gap-10"
+        className="grid grid-cols-1 lg:grid-cols-2 gap-4"
       >
         <div className="flex flex-col gap-6">
           <motion.div
