@@ -124,6 +124,11 @@ const Header = () => {
         projects that let me play with the latest tech. I'm passionate about
         what I do, but I also like to keep things light and fun.
       </p>
+      <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
+        <div className="undertekst text-[18px] font-medium text-primary w-max">
+          View my CV
+        </div>
+      </a>
     </motion.div>
   );
 };

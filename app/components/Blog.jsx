@@ -19,7 +19,7 @@ const Blog = () => {
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.4, duration: 0.6 }}
       viewport={{ once: true }}
-      className="mt-[120px] flex flex-col gap-8 min-h-[100vh]"
+      className="mt-[120px] flex flex-col gap-8 mb-[50px]"
     >
       <div className="flex items-center gap-2 cursor-pointer hover:underline">
         <p className="text-[20px] text-primary font-medium">
