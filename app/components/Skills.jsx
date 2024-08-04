@@ -35,6 +35,9 @@ const Skills = () => {
           <li className="font-light text-secondary text-[16px] mb-[5px]">
             GROQ
           </li>
+          <li className="font-light text-secondary text-[16px] mb-[5px]">
+            Node.Js
+          </li>
         </ul>
         <ul className=" list-none">
           <li className="mb-[20px] font-medium text-[20px] text-primary">

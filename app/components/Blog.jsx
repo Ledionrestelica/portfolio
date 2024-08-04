@@ -55,9 +55,12 @@ const Blog = () => {
               <div className="bg-button grid items-center justify-center flex-1 rounded-[18px]"></div>
               <CardContent className="md:py-2 py-4 px-0 flex flex-col md:gap-[16px] gap-[10px]">
                 <p className="line-clamp-2 font-medium text-[18px] text-black">
-                  My first blog post!!!
+                  Coming Soon!
                 </p>
-                <Button className="w-max rounded-full bg-button text-secondary hover:bg-background">
+                <Button
+                  disabled
+                  className={`w-max rounded-full bg-button text-secondary hover:bg-background`}
+                >
                   View More
                 </Button>
               </CardContent>

@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
+  FaLocationArrow,
 } from "react-icons/fa";
 import {
   DropdownMenu,
@@ -58,7 +59,7 @@ const Header = () => {
             quality={100}
           ></Image>
           <h1 className="text-[24px] font-medium text-primary">
-            Hey, I'm Ledion
+            Ledion Restelica - Junior Frontend Developer
           </h1>
         </div>
 
@@ -114,15 +115,13 @@ const Header = () => {
           </motion.div>
         </div>
       </div>
-      <p className="text-[18px] font-medium text-primary md:w-[600px]">
-        I love using JavaScript to prototype different ideas and dive into
-        projects that let me play with the latest tech. I'm passionate about
-        what I do, but I also like to keep things light and fun.
+      <p className="text-[18px] flex items-center gap-3 font-medium text-primary md:w-[600px]">
+        Based in Prishtina <FaLocationArrow />
       </p>
       <p className="text-[18px] font-normal text-secondary md:w-[600px]">
-        I love using JavaScript to prototype different ideas and dive into
-        projects that let me play with the latest tech. I'm passionate about
-        what I do, but I also like to keep things light and fun.
+        I am a Frontend Devloper who builds everything from Web Components and
+        UI/UX animations to React.JS, Redux, NextJS, and Node.JS. Check out my
+        latest web development portfolio projects.
       </p>
       <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
         <div className="undertekst text-[18px] font-medium text-primary w-max">

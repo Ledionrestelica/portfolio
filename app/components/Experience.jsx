@@ -62,10 +62,10 @@ const Experience = () => {
         </div>
 
         <p className="md:w-[500px] text-[16px] font-normal text-secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam
-          necessitatibus praesentium, mollitia exercitationem architecto, eum
-          aliquam illum non delectus quas saepe, consequatur dolorem sit!
-          Obcaecati porro sit voluptatum cupiditate!
+          Developed, maintained, and shipped production code for client
+          websites, from Frontend code to Full-Stack apps, with authentication,
+          login, and Admin dashboards. Collaborated with other developers and
+          the Lead designer on decision making.
         </p>
       </motion.div>
       <motion.div
@@ -88,10 +88,8 @@ const Experience = () => {
         </div>
 
         <p className="md:w-[500px] text-[16px] font-normal text-secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam
-          necessitatibus praesentium, mollitia exercitationem architecto, eum
-          aliquam illum non delectus quas saepe, consequatur dolorem sit!
-          Obcaecati porro sit voluptatum cupiditate!
+          Learned the basics of Digital Marketing, such as SEO, Social Media,
+          Linkedin, Graphic Design, Soft Skills, UI/UX and Marketing Strategies.
         </p>
       </motion.div>
     </motion.div>
